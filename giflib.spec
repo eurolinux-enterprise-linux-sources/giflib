@@ -1,7 +1,7 @@
 Summary:	Library for manipulating GIF format image files
 Name:		giflib
 Version:	4.1.6
-Release:	9%{?dist}
+Release:	7%{?dist}
 License:	MIT
 Group:		System Environment/Libraries
 URL:		http://www.sourceforge.net/projects/%{name}/
@@ -90,12 +90,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.1.6-9
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.1.6-8
-- Mass rebuild 2013-12-27
-
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.1.6-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
